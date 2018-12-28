@@ -1,0 +1,150 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(OpenSans-Regular.ttf);
+}
+body {
+  font-family: OpenSans-Regular, Arial;
+  color: #454545;
+  font-size: 16px;
+  margin: 2em auto;
+  max-width: 800px;
+  padding: 1em;
+  line-height: 1,4;
+  text-align: justify;
+  display: block;
+}
+
+span.mfw
+{
+  color: #730000;
+}
+
+span.citneed
+{
+  vertical-align: top;
+  font-size: .7em;
+  padding-left: .3em;
+}
+
+span.wr
+{
+  color: #c0392b;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: #941352;
+}
+
+a
+{
+  color: #07a;
+}
+
+a.kopimi img.kopimi
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2em;
+  width: auto;
+}
+
+
+div
+{
+  display: block;
+}
+
+div.cat div.picturecat
+{
+  float: left;
+  width: 40%;
+  overflow: hidden;
+  margin-right: 1em;
+}
+
+div.cat div.picturecat img
+{
+width: 100%;
+}
+
+.caption
+{
+  font-size: .7em;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div.cat div.textcat
+{
+  width: 55%;
+  float: left;
+}
+ul li img
+{
+  height: 1em;
+}
+
+div.cat::after
+{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.monospace
+{
+  font-family: monospace;
+}
+
+blockquote::before
+{
+  font-family: Times New Roman, Times, Arial;
+  color : #666;
+  content: open-quote;
+  font-size: 2.2em;
+  font-weight: 600;
+  float: left;
+  margin-top: 0;
+  margin-right: .2rem;
+  width: 1.2rem;
+}
+
+blockquote span
+{
+  float: left;
+margin-left: 1rem;
+padding-top: 1rem;
+}
+
+blockquote author
+{
+  display: block;
+  clear: both;
+  font-size: .6em;
+  margin-left: 2.4rem;
+  font-style: oblique;
+}
+
+blockquote author ::before
+{
+  content: -;
+  margin-right: 1em;
+}
+
+blockquote::after
+{
+  content: "";
+  display: block;
+  clear: both;
+
+}
